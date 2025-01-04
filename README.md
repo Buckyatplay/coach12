@@ -1,7 +1,7 @@
 # Commands to invoke api
 ```bash
 # Add movie
-INVOKE_URL=https://xxxxxxx.amazonaws.com
+INVOKE_URL=https://6x88ap62ph.execute-api.ap-southeast-1.amazonaws.com
 curl \
   -X PUT \
   -H "Content-Type: application/json" \
@@ -17,3 +17,7 @@ curl ${INVOKE_URL}/topmovies
 # Delete movie for a particular year
 curl -X DELETE ${INVOKE_URL}/topmovies/2013
 ```
+
+https://xxxxxxx.amazonaws.com
+invoke_url = "https://6x88ap62ph.execute-api.ap-southeast-1.amazonaws.com"
+
