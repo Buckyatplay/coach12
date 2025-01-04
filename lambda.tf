@@ -16,8 +16,8 @@ resource "aws_lambda_function" "http_api_lambda" {
   environment {
     variables = {   
       # todo: fill with apporpriate value 
-      DYNAMODB_TABLE_NAME = "${local.name_prefix}-topmovies"
-      LOG_LEVEL           = "INFO"} 
+      DDB_TABLE = "${local.name_prefix}-topmovies"
+    } 
   }
 }
 
