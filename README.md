@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Commands to invoke api
 ```bash
 # Add movie
@@ -21,3 +22,6 @@ curl -X DELETE ${INVOKE_URL}/topmovies/2013
 https://xxxxxxx.amazonaws.com
 invoke_url = "https://6x88ap62ph.execute-api.ap-southeast-1.amazonaws.com"
 
+=======
+# coach12
+>>>>>>> 1fd0faa1ed560e0b156da8fb25c7f0b32ec2af3b
